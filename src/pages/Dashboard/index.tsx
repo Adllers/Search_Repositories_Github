@@ -18,6 +18,7 @@ interface Repository {
 
 const Dashboard: React.FC = () => {
     
+    //just save the value from input
     const [ newRepo, setNewRepo ] = useState('');
     
     const [ inputError, setInputError ] = useState('');

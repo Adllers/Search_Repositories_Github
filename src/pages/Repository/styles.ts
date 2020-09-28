@@ -12,6 +12,7 @@ export const Header = styled.header`
         align-items: center;
         text-decoration: none;
         color: #a8a8b3;
+        transition: color 0.5s;
 
         &:hover {
            color: #666; 

@@ -62,11 +62,11 @@ const Repository: React.FC = () => {
         {repository && (
             <RepositoryInfo>
                 <header>
-                <img src={repository.owner.avatar_url} alt={repository.owner.login}/>
-                <div>
-                        <strong>{repository.full_name}</strong>
-                        <p>{repository.description}</p>    
-                </div> 
+                    <img src={repository.owner.avatar_url} alt={repository.owner.login}/>
+                    <div>
+                            <strong>{repository.full_name}</strong>
+                            <p>{repository.description}</p>    
+                    </div> 
                 </header>
                 <ul>
                     <li>
