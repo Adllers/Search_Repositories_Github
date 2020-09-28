@@ -81,16 +81,16 @@ export const Repositories = styled.div`
         align-items: center;
         
         transition: transform 0.3s;
-
+        /* A estilização acontece do segundo a (âncora) para frente */
         & + a {
             margin-top: 16px;
         }
-
+        /* O primeiro elemento "a" possui um efeito de hover*/
         &:hover {
             transform: translateX(10px);
         }
 
-        img: {
+        img {
             width: 64px;
             height: 64px;
             border-radius: 50%;

@@ -7,8 +7,6 @@ import logoImg  from '../../assets/logo.svg';
 
 import api from '../../services/api';
 
-
-
 interface Repository {
     full_name: string;
     description: string;
@@ -21,6 +19,7 @@ interface Repository {
 const Dashboard: React.FC = () => {
     
     const [ newRepo, setNewRepo ] = useState('');
+    
     const [ inputError, setInputError ] = useState('');
     
     const [ repositories, setRepositories] = useState<Repository[]>(() => {
