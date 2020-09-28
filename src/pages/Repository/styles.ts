@@ -1,5 +1,7 @@
-import styled, { css } from 'styled-components';
-import { shade } from 'polished';
+// eslint-disable-next-line
+import styled, { css } from 'styled-components'; 
+// eslint-disable-next-line
+import { shade } from 'polished'; 
 
 export const Header = styled.header`
     
